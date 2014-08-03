@@ -1,6 +1,6 @@
 package com.jgiles.bfu.main;
 
-public abstract class AuthoredTxt {
+public class AuthoredTxt {
 	private double cost; 
 	private String sid; 
 	private AuthoredTxtSpec authoredtxtSpec;

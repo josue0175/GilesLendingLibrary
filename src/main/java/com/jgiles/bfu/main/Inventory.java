@@ -17,12 +17,12 @@ public class Inventory {
 	public void addAuthoredTxt(AuthoredTxtSpec spec, String sid, double price) {
 		AuthoredTxt authoredtxt = null;
 
-		if(spec instanceof BookSpec) {
-			authoredtxt = new Book((BookSpec) spec, sid, price);
-		}
-		if(spec instanceof MagazineSpec) {
-			authoredtxt = new Magazine((MagazineSpec) spec, sid, price);
-		}
+//		if(spec instanceof BookSpec) {
+//			authoredtxt = new Book((BookSpec) spec, sid, price);
+//		}
+//		if(spec instanceof MagazineSpec) {
+//			authoredtxt = new Magazine((MagazineSpec) spec, sid, price);
+//		}
 
 		inventory.add(authoredtxt);
 	}
